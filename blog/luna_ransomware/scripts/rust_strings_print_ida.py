@@ -12,7 +12,7 @@ import ida_segment
 
 from pprint import pprint
 LOG = logging.getLogger()
-LOG.setLevel(logging.DEBUG)
+LOG.setLevel(logging.INFO)
 
 def _print_address_list(addresses):
     for addr in addresses:
