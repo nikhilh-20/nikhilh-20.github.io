@@ -1,6 +1,5 @@
 __version__   = "1.0"
-__copyright__ = "Copyright (C) 2022 Nikhil Ashok Hegde"
-__author__    = "Nikhil Ashok Hegde <nikhilhegde20@gmail.com>"
+__author__    = "Nikhil Ashok Hegde <ka1do9>"
 
 import logging
 
