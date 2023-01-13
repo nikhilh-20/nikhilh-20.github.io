@@ -168,7 +168,11 @@ It can be seen in Fig. 4 that there is no null character after the `Hello World!
 
 ### <a name="luna-strings"></a>Luna Strings
 
-Using the [IDAPython script](scripts/rust_strings_print_ida.py), I found the following interesting strings:
+Using the [IDAPython script](scripts/rust_strings_print_ida.py), I found interesting strings.
+
+| ![IDAPython Script Output](assets/images/idapython_output.png "IDAPython Script Output") |
+|:--:|
+| Fig. 6: String UTF-8 Encoding |
 
 ```
 Luna
@@ -240,7 +244,7 @@ As mentioned before, the binary contains the base64-encoded form of the ransom n
 
 | ![Luna Ransom Note](assets/images/ransom_note.png "Luna Ransom Note") |
 |:--:|
-| Fig. 6: Luna Ransom Note |
+| Fig. 7: Luna Ransom Note |
 
 ### <a name="skips-files-dirs"></a>Skips Files and Directories
 
@@ -295,7 +299,7 @@ I was wrapping up this article when I noticed a few peculiarities in Luna's exec
 
 | ![Execution Peculiarities](assets/images/execution_peculiarities.png "Execution Peculiarities") |
 |:--:|
-| Fig. 7: Execution Peculiarities |
+| Fig. 8: Execution Peculiarities |
 
 ## <a name="summary"></a>Summary
 
