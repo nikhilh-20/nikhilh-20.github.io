@@ -4,10 +4,7 @@
 * SHA256: 1cbbf108f44c8f4babde546d26425ca5340dccf878d306b90eb0fbec2f83ab51 
 	* VT download [link](https://www.virustotal.com/gui/file/1cbbf108f44c8f4babde546d26425ca5340dccf878d306b90eb0fbec2f83ab51)
 
-<center>
-
 ![VirusTotal Sample](assets/images/sample.png "VirusTotal Sample")
-</center>
 
 ## Table of Contents
 
@@ -35,13 +32,9 @@ The Luna ransomware appeared in July 2022. Unlike its competitors, this threat t
 
 In my experience as a malware analyst, I've been used to seeing ASCII and null-terminated strings in binaries. I was content writing IDAPython scripts where I created strings by searching for ASCII and null characters. And one fine day, I had a Rust binary on my plate which broke my scripts. I interviewed the Rust God about strings. Here's how it went:
 
-<center>
-
 | ![Rust Strings](assets/images/rust_strings.png "Rust Strings") |
 |:--:|
 | Fig. 1: Rust Strings |
-</center>
-
 
 ### <a name="and-str"></a>String Slice: &str
 
@@ -55,12 +48,9 @@ fn main() {
 
 Fig. 2 shows a snap of the disassembly as seen in IDA Home 7.7:
 
-<center>
-
 | ![String Slice](assets/images/string_slice_ida_home.png "String Slice") |
 |:--:|
 | Fig. 2: String Slice |
-</center>
 
 String slices are essentially a data structure containing the address of the slice and its length. Such structures are also called fat pointers because they contain extra data besides just the memory address. Consider the following Rust program which prints the size (in bytes) of the `&str` type:
 
@@ -100,12 +90,9 @@ struct core::fmt::ArgumentV1
 
 Although IDA's structure is of the correct size (16 bytes), it is not particularly readable. So, I replaced it with my structure definition for better readability. Fig. 3 shows it in action.
 
-<center>
-
 | ![String Slice IDA Structure](assets/images/string_slice_ida_struct.png "String Slice IDA Structure") |
 |:--:|
 | Fig. 3: String Slice IDA Structure |
-</center>
 
 ### <a name="string"></a>String
 
@@ -165,21 +152,15 @@ fn main() {
 
 Fig. 4 shows a snap of the disassembly as seen in IDA Home 7.7. Here, `v1` is the `String` variable.
 
-<center>
-
 | ![String IDA Structure](assets/images/String_ida_home.png "String IDA Structure") |
 |:--:|
 | Fig. 4: String IDA Structure |
-</center>
 
 Fig 5. shows a snap of the UTF-8 encoding of the string literal:
-
-<center>
 
 | ![String UTF-8 Encoding](assets/images/utf_8_string.png "String UTF-8 Encoding") |
 |:--:|
 | Fig. 5: String UTF-8 Encoding |
-</center>
 
 ### <a name="rust-strings-print"></a>Rust Strings Print
 
@@ -257,12 +238,9 @@ The previous IDAPython script comes in handy to identify points from where you c
 
 As mentioned before, the binary contains the base64-encoded form of the ransom note. It decodes it and then writes it into a file named `readme-Luna.txt`.
 
-<center>
-
 | ![Luna Ransom Note](assets/images/ransom_note.png "Luna Ransom Note") |
 |:--:|
 | Fig. 6: Luna Ransom Note |
-</center>
 
 ### <a name="skips-files-dirs"></a>Skips Files and Directories
 
@@ -315,12 +293,9 @@ When I hear of ransomware targeting VMware ESXi, I usually come across capabilit
 
 I was wrapping up this article when I noticed a few peculiarities in Luna's execution.
 
-<center>
-
 | ![Execution Peculiarities](assets/images/execution_peculiarities.png "Execution Peculiarities") |
 |:--:|
 | Fig. 7: Execution Peculiarities |
-</center>
 
 ## <a name="summary"></a>Summary
 
