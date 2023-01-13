@@ -187,7 +187,7 @@ It can be seen in Fig. 4 that there is no null character after the `Hello World!
 
 ### <a name="luna-strings"></a>Luna Strings
 
-Using the [IDAPython script](https://github.com/nikhilh-20/nikhilh-20.github.io/blob/main/blog/luna_ransomware/scripts/rust_strings_print_ida.py), I found the following interesting strings:
+Using the [IDAPython script](scripts/rust_strings_print_ida.py), I found the following interesting strings:
 
 ```
 Luna
