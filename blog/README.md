@@ -5,3 +5,4 @@
 # TOOLING
 
 * [Nighthawk DLL Configuration Extractor](./nighthawk_config_extractor)
+* [ELFLepton: Lightweight ELF Parsing and Fixing Tool](./elflepton)
