@@ -1,0 +1,4 @@
+dncil==1.0.2
+dnfile==0.13.0
+future==0.18.3
+pefile==2022.5.30
