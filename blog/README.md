@@ -1,6 +1,7 @@
 # POSTS
 
 * [Getting Rusty and Stringy with Luna Ransomware](./luna_ransomware)
+* [Looking Closer at BPF Bytecode in BPFDoor](./cbpf_bpfdoor)
 
 # TOOLING
 
