@@ -10,9 +10,9 @@ import idautils
 import ida_bytes
 import ida_segment
 
-from pprint import pprint
+logging.basicConfig(level="INFO")
 LOG = logging.getLogger()
-LOG.setLevel(logging.INFO)
+
 
 def _print_address_list(addresses):
     for addr in addresses:
