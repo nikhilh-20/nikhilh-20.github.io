@@ -2,6 +2,7 @@
 
 * [Getting Rusty and Stringy with Luna Ransomware](./luna_ransomware)
 * [Looking Closer at BPF Bytecode in BPFDoor](./cbpf_bpfdoor)
+* [Fast & Furious Bumblebee Configuration Extraction](./fast_furious_bumblebee_config_extract)
 
 # TOOLING
 
