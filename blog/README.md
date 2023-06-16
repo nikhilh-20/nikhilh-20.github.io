@@ -1,3 +1,5 @@
+Opinions are my own and not of my employer.
+
 # POSTS
 
 * [Fast & Furious Bumblebee Configuration Extraction](./fast_furious_bumblebee_config_extract)
