@@ -2,6 +2,7 @@ Opinions are my own and not of my employer.
 
 # POSTS
 
+* [INC Linux Ransomware - Sandboxing with ELFEN and Analysis](./inc_ransomware)
 * [Fast & Furious Bumblebee Configuration Extraction](./fast_furious_bumblebee_config_extract)
 * [Looking Closer at BPF Bytecode in BPFDoor](./cbpf_bpfdoor)
 * [Getting Rusty and Stringy with Luna Ransomware](./luna_ransomware)
