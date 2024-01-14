@@ -64,11 +64,11 @@ with the following command-line parameters:
 ```
 --dir /vmfs/volumes --esxi --debug --motd
 ```
-![BPF Bytecode Filter Flow](assets/images/elfen_submission.png "ELFEN submission")
+![ELFEN submission](assets/images/elfen_submission.png "ELFEN submission")
 
 The analysis result summary is shown in the snap below:
 
-![BPF Bytecode Filter Flow](assets/images/analysis_summary.png "ELFEN submission")
+![ELFEN analysis summary](assets/images/analysis_summary.png "ELFEN analysis summary")
 
 ### <a name="console-output"></a>Console Output
 
@@ -226,10 +226,11 @@ The `INC` ransomware variant used in this analysis has typical ransomware capabi
 encryption leveraging asymmetric/symmetric cryptography, etc. The main goal of this analysis was to demonstrate the usage
 of the [ELFEN](https://github.com/nikhilh-20/ELFEN) sandbox to quickly get insights into a given malware sample.
 
-[ELFEN](https://github.com/nikhilh-20/ELFEN) also supports more features like:
-* Analysis of Linux malware targeting ARMv5, MIPS and PowerPC architectures.
-* Tracing network-related syscalls.
-* PCAP capture and analysis.
+[ELFEN](https://github.com/nikhilh-20/ELFEN) supports features such as:
+* Analysis and detection of Linux malware targeting x86-64, ARMv5, MIPS and PowerPC architectures.
+* Tracing files, processes, network-related syscalls and some `libc` string-related functions.
+* PCAP capture and protocol analysis.
+* Memory dumps and capturing dropped files
 * and more!
 
 If you've not already, give [ELFEN](https://github.com/nikhilh-20/ELFEN) a try!
