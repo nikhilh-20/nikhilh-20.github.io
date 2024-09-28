@@ -2,6 +2,7 @@ Opinions are my own and not of my employer.
 
 # POSTS
 
+* [Process Injection in BugSleep Loader](./inject_bugsleep)
 * [Taking a Midnight Walk with PEB and Phobos Ransomware](./peb_phobos_ransomware)
 * [Fast & Furious Bumblebee Configuration Extraction](./fast_furious_bumblebee_config_extract)
 * [Looking Closer at BPF Bytecode in BPFDoor](./cbpf_bpfdoor)
