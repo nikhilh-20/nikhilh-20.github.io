@@ -2,6 +2,7 @@ Opinions are my own and not of my employer.
 
 # POSTS
 
+* [Turla Backdoor Bypasses ETW, EventLog and AMSI But It's Buggy](./turla_backdoor_defenses_bypass)
 * [Emansrepo Infostealer - PyInstaller, Deobfuscation and LLM](./emansrepo_deobfuscation)
 * [Process Injection in BugSleep Loader](./inject_bugsleep)
 * [Taking a Midnight Walk with PEB and Phobos Ransomware](./peb_phobos_ransomware)
