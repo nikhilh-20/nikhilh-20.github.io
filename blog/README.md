@@ -2,6 +2,7 @@ Opinions are my own and not of my employer.
 
 # POSTS
 
+* [Deobfuscating JavaScript Malware Using Abstract Syntax Trees](./deob_js_ast)
 * [Turla Backdoor Bypasses ETW, EventLog and AMSI But It's Buggy](./turla_backdoor_defenses_bypass)
 * [Emansrepo Infostealer - PyInstaller, Deobfuscation and LLM](./emansrepo_deobfuscation)
 * [Process Injection in BugSleep Loader](./inject_bugsleep)
