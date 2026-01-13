@@ -11,6 +11,13 @@ Opinions are my own and not of my employer.
 * [Looking Closer at BPF Bytecode in BPFDoor](./cbpf_bpfdoor)
 * [Getting Rusty and Stringy with Luna Ransomware](./luna_ransomware)
 
+# GenAI as a Writer
+
+Blog article written by GenAI. Malware analysis, images, content verification by me.
+
+* [Detecting KatzStealer: YARA, Snort and Osquery Detections](./katz_stealer_detections)
+
+
 # Sandboxing with ELFEN Series
 
 * [Noabot Botnet - Sandboxing with ELFEN and Analysis](./noabot_botnet)
