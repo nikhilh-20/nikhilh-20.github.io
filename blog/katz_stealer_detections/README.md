@@ -1,5 +1,7 @@
 # Getting Hands-On with KatzStealer: YARA, Snort and osquery Detections
 
+_Note: Blog article written by GenAI. Malware analysis, images, content verification by me._
+
 ## Metadata
 
 * Family: KatzStealer

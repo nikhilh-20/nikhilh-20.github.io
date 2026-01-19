@@ -16,7 +16,7 @@ Opinions are my own and not of my employer.
 Blog article written by GenAI. Malware analysis, images, content verification by me.
 
 * [Detecting KatzStealer: YARA, Snort and Osquery Detections](./katz_stealer_detections)
-
+* [Randomized PowerShell and MAFFIA: Process Hollowing via Aspnet_compiler.exe](./formbook_analysis)
 
 # Sandboxing with ELFEN Series
 
