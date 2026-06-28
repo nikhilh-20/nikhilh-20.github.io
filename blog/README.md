@@ -11,6 +11,10 @@ Opinions are my own and not of my employer.
 * [Looking Closer at BPF Bytecode in BPFDoor](./cbpf_bpfdoor)
 * [Getting Rusty and Stringy with Luna Ransomware](./luna_ransomware)
 
+# Weekly Malware Analysis
+
+* [June Week 4, 2026](./weekly_malware_analysis/june_w4_2026)
+
 # GenAI as a Writer
 
 Blog article written by GenAI. Malware analysis, images, content verification by me.
