@@ -14,6 +14,19 @@ Opinions are my own and not of my employer.
 # Weekly Malware Analysis
 
 * [June Week 4, 2026](./weekly_malware_analysis/june_w4_2026)
+* [July Week 1, 2026](./weekly_malware_analysis/july_w1_2026)
+
+# TOOLING
+
+* [Malware analysis utilities](https://github.com/nikhilh-20/re_tools)
+* [dncil-based Agent Tesla String Deobfuscation](./dncil_agent_tesla)
+* [ELFLepton: Lightweight ELF Parsing and Fixing Tool](./elflepton)
+* [Nighthawk DLL Configuration Extractor](./nighthawk_config_extractor)
+
+# Sandboxing with ELFEN Series
+
+* [Noabot Botnet - Sandboxing with ELFEN and Analysis](./noabot_botnet)
+* [INC Linux Ransomware - Sandboxing with ELFEN and Analysis](./inc_ransomware)
 
 # GenAI as a Writer
 
@@ -21,17 +34,6 @@ Blog article written by GenAI. Malware analysis, images, content verification by
 
 * [Detecting KatzStealer: YARA, Snort and Osquery Detections](./katz_stealer_detections)
 * [Randomized PowerShell and MAFFIA: Process Hollowing via Aspnet_compiler.exe](./formbook_analysis)
-
-# Sandboxing with ELFEN Series
-
-* [Noabot Botnet - Sandboxing with ELFEN and Analysis](./noabot_botnet)
-* [INC Linux Ransomware - Sandboxing with ELFEN and Analysis](./inc_ransomware)
-
-# TOOLING
-
-* [dncil-based Agent Tesla String Deobfuscation](./dncil_agent_tesla)
-* [ELFLepton: Lightweight ELF Parsing and Fixing Tool](./elflepton)
-* [Nighthawk DLL Configuration Extractor](./nighthawk_config_extractor)	   
 
 # PAPERS
 
