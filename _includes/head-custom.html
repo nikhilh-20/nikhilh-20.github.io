@@ -1,0 +1,17 @@
+<!-- Preserve the theme's default head-custom includes (this file shadows the theme's copy) -->
+{% include head-custom-theme-colors.html %}
+{% include head-custom-google-analytics.html %}
+
+<!-- Render ```mermaid fenced blocks (kramdown emits them as <pre><code class="language-mermaid">) -->
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+
+  document.querySelectorAll('pre > code.language-mermaid').forEach((code) => {
+    const div = document.createElement('div');
+    div.className = 'mermaid';
+    div.textContent = code.textContent;  // textContent decodes &gt; back to > before Mermaid parses
+    code.parentElement.replaceWith(div);
+  });
+
+  mermaid.initialize({ startOnLoad: true, theme: 'dark' });
+</script>
