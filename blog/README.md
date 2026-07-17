@@ -11,10 +11,14 @@ Opinions are my own and not of my employer.
 * [Looking Closer at BPF Bytecode in BPFDoor](./cbpf_bpfdoor)
 * [Getting Rusty and Stringy with Luna Ransomware](./luna_ransomware)
 
-# Weekly Malware Analysis
+# Monthly Malware Analysis
 
-* [June Week 4, 2026](./weekly_malware_analysis/june_w4_2026)
-* [July Week 1, 2026](./weekly_malware_analysis/july_w1_2026)
+<details markdown="1">
+  <summary>2026</summary>
+
+  * [June](./monthly_malware_analysis/2026/june)
+  * [July](./monthly_malware_analysis/2026/july)
+</details>
 
 # TOOLING
 
